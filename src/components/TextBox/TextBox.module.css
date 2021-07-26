@@ -1,9 +1,9 @@
 @import url('../../assets/css/color.css');
 
-.BasicInfo{
-    margin-bottom: 40px;
+.TextBox{
+    margin-bottom: 10px;
 }
-.BasicInfo h3{
+.TextBox h3{
     font-size: 18px;
     color: var(--semi-red);
     text-transform: uppercase;
@@ -11,7 +11,7 @@
     position: relative;
     margin-bottom: 35px;
 }
-.BasicInfo h3::before{
+.TextBox h3::before{
     content: '';
     background-color: var(--grey);
     height: 4px;
@@ -19,7 +19,7 @@
     position: absolute;
     bottom: -14px;
 }
-.BasicInfo h3::after{
+.TextBox h3::after{
     content: '';
     background-color:var(--semi-red);
     height: 4px;
@@ -29,6 +29,8 @@
     left: 0;
 }
 
-.BasicInfo p{
+.TextBox p{
+    background-color: var(--grey);
+    padding:10px;
     font-size: 14px;
 }

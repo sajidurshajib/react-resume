@@ -1,0 +1,54 @@
+{
+    "name":"Jhon Doe",
+    "position":"Software Engineer",
+    "objective":"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic",
+    
+    "info":{
+        "title":"Basic Info",
+        "arr":[
+            {"t":"Address","b":"151/2 Los Angeles, US"},
+            {"t":"Contact No.","b":"+880156789123"},
+            {"t":"Email","b":"jhon.inbox@doe.com"},
+            {"t":"GitHub","b":"sajidurshajib"},
+            {"t":"LinkedIn","b":"sajidurshajib"},
+            {"t":"Portfolio","b":"jhon.github.io"}
+        ]
+    },
+
+    "skills":{
+        "title":"Skills",
+        "arr":[
+            {"t":"Languages","b":"C/C++, C#, java, Php, Javascript, Python, Shell"},
+            {"t":"Frontend","b":"React, Next.js, Vue, Redux"},
+            {"t":"Backend","b":"Node.js, Express.js, Flask, Lumen"},
+            {"t":"Full Stack","b":"MERN stack, Codeigniter, Laravel"},
+            {"t":"Database","b":"MySQL, PostgreSQL, MongoDB"}
+        ]
+    },
+
+    "projects":{
+        "title":"Projects",
+        "arr":[
+            {"y":"2020","t":"Final Year Project", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"},
+            {"y":"2019","t":"Third Year Project", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor ore sit amet"},
+            {"y":"2018","t":"First Year Project", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"}
+        ]
+    },
+
+    "glink":{
+        "title":"For all of my projects, check them here",
+        "href":"https://github.com/jhondoe",
+        "text":"github.com/jhondoe"
+    },
+
+    "journal":{
+        "title":"Journal",
+        "text":"Lorem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor ore sit amet"
+    },
+
+    "jlink":{
+        "title":"Journal link",
+        "href":"https://j.com/jhondoe",
+        "text":"j.com/jhondoe"
+    }
+}

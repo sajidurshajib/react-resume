@@ -1,0 +1,13 @@
+.container{
+    background-color: #fff;
+    max-width: 970px;
+    display: block;
+    margin: 0 auto;
+}
+.half_grid{
+    overflow: hidden;
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0,6fr));
+    padding:0 50px;
+    grid-gap:50px;
+}

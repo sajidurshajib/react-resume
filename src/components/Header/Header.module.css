@@ -1,8 +1,10 @@
+@import url('../../assets/css/color.css');
+
 .Header{
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .red{
-    background-color: #c44;
+    background-color: var(--semi-red);
     height: 220px;
 }
 .section{
@@ -11,19 +13,34 @@
     color: #fff;
 }
 .img{
-    background: url('https://avatars.githubusercontent.com/u/24451343?v=4');
-    background-position: center;
-    background-size: cover;
-    width: 220px;
-    height: 220px;
+    background-color: var(--semi-red);
+    background-position: center !important;
+    background-size: cover !important;
+    width: 200px;
+    height: 200px;
     position: relative;
-    top: 30px;
-    left: 40px;
-    border: 2px solid #fff;
+    top: 60px;
+    left: 60px;
+    border: 4px solid #fff;
+    border-radius: 2px;
 }
 .detail{
-    padding:0 40px 0 0 ;
+    position: relative;
+    top: 60px;
+    left: -10px;
+    padding:0 50px 0 0 ;
 }
 .detail h2{
+    font-size: 24px;
+    margin: 5px 0;
     cursor: pointer;
+}
+.detail h4{
+    font-weight: 400;
+    margin: 0;
+}
+.detail p{
+    text-align: justify;
+    font-size: 14px;
+    line-height: 18px;
 }

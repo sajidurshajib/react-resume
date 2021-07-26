@@ -1,9 +1,8 @@
-@import url('../../assets/css/color.css');
-
-.BasicInfo{
+.YearList{
     margin-bottom: 40px;
+    overflow: hidden;
 }
-.BasicInfo h3{
+.YearList h3{
     font-size: 18px;
     color: var(--semi-red);
     text-transform: uppercase;
@@ -11,7 +10,7 @@
     position: relative;
     margin-bottom: 35px;
 }
-.BasicInfo h3::before{
+.YearList h3::before{
     content: '';
     background-color: var(--grey);
     height: 4px;
@@ -19,7 +18,7 @@
     position: absolute;
     bottom: -14px;
 }
-.BasicInfo h3::after{
+.YearList h3::after{
     content: '';
     background-color:var(--semi-red);
     height: 4px;
@@ -27,8 +26,4 @@
     position: absolute;
     bottom: -14px;
     left: 0;
-}
-
-.BasicInfo p{
-    font-size: 14px;
 }

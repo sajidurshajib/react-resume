@@ -1,0 +1,65 @@
+@import url('../../assets/css/color.css');
+
+.Child{
+    position: relative;
+    left: 20px;
+    position: relative;
+}
+.Child::before{
+    content: '';
+    background-color: var(--light-red);
+    position: absolute;
+    width: 4px;
+    height: 100%;
+    left: -17px;
+    top: 36px;
+}
+.Child span{
+    font-size: 13px;
+}
+.Child h4{
+    margin: 5px 0 0 0;
+    position: relative;
+}
+.Child h4::before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: var(--semi-red);
+    position: absolute;
+    left: -20px;
+    top: 2px;
+}
+.Child p{
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
+
+
+
+
+.ChildB{
+    position: relative;
+    left: 20px;
+}
+.ChildB span{
+    font-size: 13px;
+}
+.ChildB h4{
+    margin: 5px 0 0 0;
+    position: relative;
+}
+.ChildB h4::before{
+    content: '';
+    height: 10px;
+    width: 10px;
+    background-color: var(--semi-red);
+    position: absolute;
+    left: -20px;
+    top: 2px;
+}
+
+.ChildB p{
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}
