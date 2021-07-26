@@ -1,0 +1,29 @@
+.Header{
+    margin-bottom: 50px;
+}
+.red{
+    background-color: #c44;
+    height: 220px;
+}
+.section{
+    display: grid;
+    grid-template-columns: minmax(0, 4fr) minmax(0, 8fr);
+    color: #fff;
+}
+.img{
+    background: url('https://avatars.githubusercontent.com/u/24451343?v=4');
+    background-position: center;
+    background-size: cover;
+    width: 220px;
+    height: 220px;
+    position: relative;
+    top: 30px;
+    left: 40px;
+    border: 2px solid #fff;
+}
+.detail{
+    padding:0 40px 0 0 ;
+}
+.detail h2{
+    cursor: pointer;
+}

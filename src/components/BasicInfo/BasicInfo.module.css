@@ -1,0 +1,26 @@
+.BasicInfo{
+    margin-bottom: 40px;
+}
+.BasicInfo h3{
+    color: #c44;
+    text-transform: uppercase;
+    font-weight: bold;
+    position: relative;
+}
+.BasicInfo h3::before{
+    content: '';
+    background-color: lightgrey;
+    height: 4px;
+    width: 260px;
+    position: absolute;
+    bottom: -16px;
+}
+.BasicInfo h3::after{
+    content: '';
+    background-color: #c44;
+    height: 4px;
+    width: 120px;
+    position: absolute;
+    bottom: -16px;
+    left: 0;
+}
