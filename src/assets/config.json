@@ -29,9 +29,9 @@
     "projects":{
         "title":"Projects",
         "arr":[
-            {"y":"2020","t":"Final Year Project", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"},
-            {"y":"2019","t":"Third Year Project", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor ore sit amet"},
-            {"y":"2018","t":"First Year Project", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"}
+            {"y":"2020","t":"Final Year Project", "s":"Js", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"},
+            {"y":"2019","t":"Third Year Project", "s":"Php", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor orem ipsum dolor sit amet Lorem ipsum dolor ore sit amet"},
+            {"y":"2018","t":"First Year Project", "s":"C", "b":"Lorem ipsum dolor sit amet Lorem ipsum dolor sit amet"}
         ]
     },
 
@@ -47,8 +47,32 @@
     },
 
     "jlink":{
-        "title":"Journal link",
+        "title":"Journal link. (page - 12)",
         "href":"https://j.com/jhondoe",
         "text":"j.com/jhondoe"
+    },
+
+    "achivements":{
+        "title":"Achivements",
+        "arr":[
+            {"y":"2019","t":"ICPC Dhaka Regional Contest", "s":"Js", "b":"(First team from our institute)"},
+            {"y":"2018","t":"Intra University Programming contest", "s":"C", "b":"Became champion. I had another team member"}
+        ]
+    },
+
+    "experience":{
+        "title":"Experience",
+        "arr":[
+            {"y":"2021","t":"LotusTech Development", "s":"Js", "b":"React developer"},
+            {"y":"2019-2020","t":"WillsIT (Trainer)", "s":"C", "b":"Structured programming language and Data structure"},
+            {"y":"2018","t":"Freelance", "s":"Php", "b":"Part-time web developer"}
+        ]
+    },
+
+    "education":{
+        "title":"Education",
+        "date":"2017-2021",
+        "bold":"B. Sc in Computer Science and Engineering",
+        "text":"Ranada Prasad Shaha University [ CGPA: 3.14/4.00 ]"
     }
 }

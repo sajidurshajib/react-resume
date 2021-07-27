@@ -1,7 +1,12 @@
+.Link{
+    margin: 0 0 15px 0;
+}
 .Link p{
+    font-size: 14px;
     margin: 0 0 5px 0;
 }
 .Link a{
+    font-size: 14px;
     text-decoration: none;
     position: relative;
     left: 15px;

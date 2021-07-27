@@ -4,7 +4,11 @@ const TextBox = (props)=>{
     return (
         <div className={classes.TextBox}>
             <h3>{props.cnf.title}</h3>
-            <p>{props.cnf.text}</p>
+            <div className={classes.wrapper}>
+                <span>{props.cnf.date}</span>
+                <p><b>{props.cnf.bold}</b></p>
+                <p>{props.cnf.text}</p>
+            </div>
         </div>
     )
 }

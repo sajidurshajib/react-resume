@@ -1,0 +1,22 @@
+@import url('../../assets/css/color.css');
+
+.Child{
+    position: relative;
+}
+.Child span{
+    font-size: 13px;
+}
+.Child h4{
+    font-size: 16px;
+    margin: 5px 0 0 0;
+    position: relative;
+}
+.Child span{
+    font-weight: 400;
+}
+.Child p{
+    position: relative;
+    left: 15px;
+    font-size: 14px;
+    margin: 5px 0 10px 0;
+}

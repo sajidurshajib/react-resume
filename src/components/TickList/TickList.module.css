@@ -1,9 +1,8 @@
-@import url('../../assets/css/color.css');
-
-.TextBox{
-    margin-bottom: 10px;
+.TickList{
+    margin-bottom: 40px;
+    overflow: hidden;
 }
-.TextBox h3{
+.TickList h3{
     font-size: 18px;
     color: var(--semi-red);
     text-transform: uppercase;
@@ -11,7 +10,7 @@
     position: relative;
     margin-bottom: 35px;
 }
-.TextBox h3::before{
+.TickList h3::before{
     content: '';
     background-color: var(--grey);
     height: 4px;
@@ -19,7 +18,7 @@
     position: absolute;
     bottom: -14px;
 }
-.TextBox h3::after{
+.TickList h3::after{
     content: '';
     background-color:var(--semi-red);
     height: 4px;
@@ -27,17 +26,4 @@
     position: absolute;
     bottom: -14px;
     left: 0;
-}
-.TextBox span{
-    position: relative;
-    left: 4px;
-    font-size: 14px;
-}
-.TextBox p{
-    margin: 5px;
-}
-.wrapper{
-    background-color: var(--grey);
-    padding:10px;
-    font-size: 14px;
 }

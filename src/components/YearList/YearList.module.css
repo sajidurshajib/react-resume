@@ -3,6 +3,7 @@
     overflow: hidden;
 }
 .YearList h3{
+    margin: 0;
     font-size: 18px;
     color: var(--semi-red);
     text-transform: uppercase;

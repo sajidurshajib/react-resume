@@ -2,6 +2,7 @@ import config from '../../assets/config.json'
 import Header from '../../components/Header/Header'
 import BasicInfo from '../../components/BasicInfo/BasicInfo'
 import YearList from '../../components/YearList/YearList'
+import TickList from '../../components/TickList/TickList'
 import Link from '../../components/Link/Link'
 import TextBox from '../../components/TextBox/TextBox'
 import classes from './Home.module.css'
@@ -22,7 +23,9 @@ const Home = ()=>{
                     <div>
                         <TextBox cnf={config.journal} />
                         <Link cnf={config.jlink} />
-                        <YearList cnf={config.projects} />
+                        <TickList cnf={config.achivements}/>
+                        <YearList cnf={config.experience} />
+                        <TextBox cnf={config.education} />
                     </div>
                 </div>
             </div>        
