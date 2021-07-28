@@ -29,7 +29,6 @@ const App = ()=>{
         localStorage.setItem('resume_sjdr',JSON.stringify(resume))
     }, [resume])
 
-    console.log(resume)
     return (
         <div className={classes.App}>
             <Data.Provider value={resume}>
