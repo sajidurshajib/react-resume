@@ -6,8 +6,15 @@ import TickList from '../../components/TickList/TickList'
 import Link from '../../components/Link/Link'
 import TextBox from '../../components/TextBox/TextBox'
 import classes from './Home.module.css'
+import {Data, SetData} from '../../App'
+import React,{useContext} from 'react'
+
 
 const Home = ()=>{
+
+    const data = useContext(Data)
+    const setdata = useContext(SetData)
+    
     return (
         <div className={classes.Home}>
             <div className={classes.container}>
@@ -18,14 +25,14 @@ const Home = ()=>{
                         <BasicInfo cnf={config.info}/>
                         <BasicInfo cnf={config.skills}/>
                         <YearList cnf={config.projects} />
-                        <Link cnf={config.glink} />
+                        <Link cnf={data.glink} />
                     </div>
                     <div>
-                        <TextBox cnf={config.journal} />
-                        <Link cnf={config.jlink} />
+                        <TextBox cnf={data.journal} />
+                        <Link cnf={data.jlink} />
                         <TickList cnf={config.achivements}/>
                         <YearList cnf={config.experience} />
-                        <TextBox cnf={config.education} />
+                        <TextBox cnf={data.education} />
                     </div>
                 </div>
             </div>        

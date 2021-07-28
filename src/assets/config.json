@@ -39,6 +39,7 @@
     },
 
     "glink":{
+        "id":"g",
         "title":"For all of my projects, check them here",
         "href":"https://github.com/jhondoe",
         "text":"github.com/jhondoe"
@@ -50,6 +51,7 @@
     },
 
     "jlink":{
+        "id":"j",
         "title":"Journal link. (page - 12)",
         "href":"https://j.com/jhondoe",
         "text":"j.com/jhondoe"
